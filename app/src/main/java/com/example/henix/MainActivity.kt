@@ -19,15 +19,15 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        getnews()
+        getinfo()
 
         binding.refreshButton.setOnClickListener{
-            getnews()
+            getinfo()
         }
     }
 
 
-    private fun getnews() {
+    private fun getinfo() {
 
         binding.factValue.text = "Fetching..."
         binding.lenValue.text = "Fetching..."
@@ -43,7 +43,6 @@ class MainActivity : AppCompatActivity() {
 
                     binding.factValue.text = responsee.fact.toString()
                     binding.lenValue.text = responsee.length.toString()
-
 
                 }
                 catch (ex: java.lang.Exception){
