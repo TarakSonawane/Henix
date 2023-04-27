@@ -2,7 +2,7 @@
  
 Dependencies/Libraries Used:
 
-1.implementation 'com.squareup.retrofit2:retrofit:2.9.0' : 
+1. implementation 'com.squareup.retrofit2:retrofit:2.9.0' : 
 -This is a library for making network requests in Android. 
  Retrofit is a type-safe HTTP client that uses annotations to define API endpoints and converts response data into Java or Kotlin objects. 
  It supports a variety of data formats and HTTP clients, and provides advanced features like request caching and response caching.
